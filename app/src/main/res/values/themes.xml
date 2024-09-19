@@ -2,4 +2,9 @@
 <resources>
 
     <style name="Theme.App" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Splash screen theme -->
+    <style name="SplashTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/transparent</item> <!-- Ensures no background is shown -->
+    </style>
 </resources>
